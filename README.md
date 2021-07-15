@@ -45,6 +45,8 @@ User.find(1).then do(user)
 
 ```
 
+> Visit https://bookshelfjs.org/ for more information.
+
 Using the DB class
 
 ```js
@@ -56,7 +58,7 @@ DB.table('users').where('id', 1).first().then do(user)
 
 ```
 
-> Visit https://bookshelfjs.org/ for more information
+> Visit https://knexjs.org/ for more information.
 
 Security
 --------
