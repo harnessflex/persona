@@ -41,7 +41,7 @@ Accessing the model
 
 User.find(1).then do(user)
 
-	console.log user
+    console.log user
 
 ```
 
@@ -52,7 +52,7 @@ import { DB } from '@harnessflex/persona'
 
 DB.table('users').where('id', 1).first().then do(user)
 
-	console.log user
+    console.log user
 
 ```
 
