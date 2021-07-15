@@ -1,7 +1,7 @@
 {
   "name": "@harnessflex/persona",
   "version": "0.0.1",
-  "description": "",
+  "description": "A Laravel inspired ORM for Harness. Build on top of Bookshelf and Knex.",
   "main": "lib/index.js",
   "scripts": {
     "build": "imbac src --output=lib --platform=node",
