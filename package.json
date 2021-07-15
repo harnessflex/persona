@@ -1,0 +1,25 @@
+{
+  "name": "@harnessflex/persona",
+  "version": "0.0.1",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "imbac src --output=lib --platform=node",
+    "watch": "imbac -w src --output=lib --platform=node",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Donald Pakkies",
+  "license": "MIT",
+  "dependencies": {
+    "bookshelf": "^1.2.0",
+    "imba": "^2.0.0-alpha.155",
+    "knex": "^0.21.19",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.2.5",
+    "oracledb": "^5.2.0",
+    "pg": "^8.6.0",
+    "pluralize": "^8.0.0",
+    "sqlite3": "^5.0.2",
+    "tedious": "^11.0.9"
+  }
+}
