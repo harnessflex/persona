@@ -13,7 +13,7 @@ npm i @harnessflex/persona
 
 ## Basic Usage
 
-### Creating a model
+Creating a model
 
 ```js
 import { Model } from '@harnessflex/persona'
@@ -31,7 +31,7 @@ class User < Model
         ]
 ```
 
-### Accessing the model
+Accessing the model
 
 ```js
 
@@ -40,6 +40,17 @@ class User < Model
 # Find first user...
 
 User.find(1).then do(user)
+
+	console.log user
+
+```
+
+Using the DB class
+
+```js
+import { DB } from '@harnessflex/persona'
+
+DB.table('users').where('id', 1).first().then do(user)
 
 	console.log user
 
