@@ -1,7 +1,7 @@
 Harness Persona
 ---------------
 
-A Laravel inspired ORM for Harness. Build on top of Bookshelf and Knex.
+A Laravel inspired ORM for Harness. Built on top of Bookshelf and Knex.
 
 ## Install
 
